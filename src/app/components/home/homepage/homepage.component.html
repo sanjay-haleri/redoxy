@@ -1,0 +1,11 @@
+<div class="title-wrapper">
+    <h1>Particles directive</h1>
+    <h2>Total particles : {{number}}</h2>
+    <div class="control">
+        <div class="control-item" (click)="add()">Add (20)</div>
+        <div class="control-item" (click)="remove()">Remove (20)</div>
+    </div>
+</div>
+<div class="particles-wrapper">
+    <canvas repulse-particles number={{number}}></canvas>
+</div>
